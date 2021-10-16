@@ -97,8 +97,8 @@ body {
 #slide2:checked ~ .nav .titles #title2,
 #slide3:checked ~ .nav .titles #title3,
 #slide4:checked ~ .nav .titles #title4 {
-    -webkit-transition: margin-left 1s, opacity 0.5s ease-in;
-  transition: margin-left 1s, opacity 0.5s ease-in;
+    -webkit-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
   opacity: 1;
   
 }
@@ -147,4 +147,17 @@ body {
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+    .controls {
+        order: -1;
+        margin: 0 auto;
+    }
+    .titles {
+        margin-top: 30px;
+    }
 }
