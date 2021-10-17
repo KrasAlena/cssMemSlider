@@ -150,6 +150,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .container {
+        height: 50vw;
+        width: 60vw;
+    }
     .nav {
         flex-direction: column;
     }
