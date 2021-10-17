@@ -17,8 +17,8 @@ body {
     overflow: auto;   
 }
 .container {
-	height: 30vw;
-	width: 40vw;
+	height: 35vw;
+	width: 47vw;
 }
 
 .slider {
@@ -151,8 +151,8 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        height: 50vw;
-        width: 60vw;
+        height: 55vw;
+        width: 75vw;
     }
     .nav {
         flex-direction: column;
